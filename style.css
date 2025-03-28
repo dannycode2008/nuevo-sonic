@@ -1,0 +1,72 @@
+
+body{
+    background-image: url("imagenes/fondo_sonic.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+header,footer{
+    display: flex;
+    background-color: aliceblue;
+    font-family: Tele;
+    align-items: center;
+    padding: 15px 50px;
+}
+img{
+    width: 70px;
+    margin-right: 25px;
+}
+h1,{
+    margin: 0;
+    text-align: center;
+}
+h2{
+    margin: 0;
+    text-align: center;
+    text-align: left;
+}
+main{
+    margin:50px 20%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    min-height: calc(100vh - 92px - 80px - 100px);
+    text-align: center;
+}
+main img {
+    width: 140px; /* Aumenta el ancho */
+    height: auto; /* La altura se ajusta automáticamente */
+    object-fit: contain; /* Evita la distorsión */
+    margin-top: 70px; 
+    margin-bottom: 20px;
+}
+.azul{
+    background-color: blue;
+    border-radius: 15px;
+    
+}
+.Dr_Eggman{
+    background-color: rgb(169,50,38);
+    border-radius: 15px;
+}
+.Amy{
+    background-color: rgb(255,35,255);
+}
+.Metal_Sonic{
+    background-color: rgb(2, 22, 100);
+}
+.Tails{
+    background-color: yellow;
+    border-radius: 16px;
+    margin-bottom:20px;
+}
+.Knuckles{
+    background-color: rgb(255,0,0)
+}
+p{
+    text-align: left;
+}
+li{
+    text-align: left;
+}
